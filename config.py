@@ -8,14 +8,14 @@ id_pattern = re.compile(r'^.\d+$')
 
 API_ID = os.environ.get("API_ID", "10811400")
 API_HASH = os.environ.get("API_HASH", "191bf5ae7a6c39771e7b13cf4ffd1279")
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "7090403697:AAEelXXHhNoWXR_duKpDJiFl39LbI7A3sU0")
-ADMIN = int(os.environ.get("ADMIN", '6469754522'))
-FSUB_UPDATES = os.environ.get("FSUB_CHANNEL", "Sunrises24BotUpdates")
-FSUB_GROUP = os.environ.get("FSUB_GROUP", "Sunrises24BotSupport")
-DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://UPLOADXPRO24BOT:UPLOADXPRO24BOT@cluster0.hjfk60f.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
+ADMIN = int(os.environ.get("ADMIN", '5446367898'))
+FSUB_UPDATES = os.environ.get("FSUB_CHANNEL", "Animes_India_bot")
+FSUB_GROUP = os.environ.get("FSUB_GROUP", "Animes_India_bots_support_group")
+DATABASE_URI = os.environ.get("DATABASE_URI", "mongodb+srv://Krishna:krishna@cluster0.ecime.mongodb.net/")
 DATABASE_NAME = os.environ.get("DATABASE_NAME", "Cluster0")
 CAPTION = os.environ.get("CAPTION", "")
-group = environ.get('GROUP', '-1002173560131')
+group = environ.get('GROUP', '')
 GROUP = int(group) if group and id_pattern.search(group) else None
 #ALL FILES UPLOADED - CREDITS 🌟 - @Sunrises_24
 SUNRISES_PIC= "https://graph.org/file/bd91761f6e938e2e6d23a.jpg"  # Replace with your Telegraph link
