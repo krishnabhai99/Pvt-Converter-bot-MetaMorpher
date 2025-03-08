@@ -52,7 +52,7 @@ async def progress_message(current, total, ud_type, message, start):
                     estimated_total_time if estimated_total_time != '' else '0 s',
                     progress
                 ),
-                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🌟 Jᴏɪɴ Us 🌟", url="https://t.me/Sunrises24botupdates")]])
+                reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🌟 Jᴏɪɴ Us 🌟", url="https://t.me/Animes_India_bot")]])
             )
         except Exception as e:
             print(f"Error editing message: {e}")
@@ -151,7 +151,7 @@ async def drive_progress(current, total, ud_type, message, start):
         # Update the bot message with the short progress
         await message.edit(
             text=f"{ud_type}\n\nProgress: {progress}",
-            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🌟 Jᴏɪɴ Us 🌟", url="https://t.me/Sunrises24botupdates")]])
+            reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🌟 Jᴏɪɴ Us 🌟", url="https://t.me/Animes_India_bot")]])
         )
     except Exception as e:
         print(f"Error editing message: {e}")
